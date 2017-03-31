@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<head>
+    	<meta charset="utf-8"/>
+        <title>表单</title>
+    </head>
+    <body>
+    	<table border="1px">
+        	<tr>
+            	<th>用户名：</th>
+                <td>
+                	<form>
+                    	<input type="text" name="名称" value=""
+                	</form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>密码：</th>
+                <td>
+                	<form>
+                    	<input type="password" name="密码" value="">
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>确认密码</th>
+                <td>
+                	<form>
+                    	<input type="password" name="确认密码" value="">
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>性别</th>
+                <td>
+                    <form>
+                        <input type="radio" value="Male" name= " sex " checked= " checked " />男
+                        <input type="radio" value="feMale" name= " sex " />女
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>生日</th>
+                <td>
+                	<form>
+                        <select name="公历">
+                        <option value="one" >公历  </option>
+                        <option value="two"> 农历</option>
+                        </select>
+                        <select name="年">
+                        <option value="one" >年  </option>
+                        <option value="two"> 1997</option>
+                        <option value="three"> 1998</option>
+                        </select>
+                        <select name="月">
+                        <option value="one" >月  </option>
+                        <option value="two"> 1月</option>
+                        <option value="three"> 2月</option>
+                        </select>
+                        <select name="日">
+                        <option value="one" >日  </option>
+                        <option value="two"> 1日</option>
+                        <option value="three"> 2日</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>所在地：</th>
+                <td>
+                	<form>
+                        <select name="国家">
+                        <option value="one" >中国  </option>
+                        </select>
+                        <select name="省">
+                        <option value="one" >河北  </option>
+                        <option value="two"> 浙江</option>
+                        <option value="three"> 安徽</option>
+                        </select>
+                        <select name="市">
+                        <option value="one" >石家庄</option>
+                        <option value="two"> 邯郸</option>
+                        <option value="three"> 保定</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>验证码：</th>
+                <td>
+                	<form>
+                    	<input type="text" name="验证码" value="">
+                                            <img src="timg.jpg" width="100px" height="20">
+
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>证件类型：</th>
+                <td>
+                	<form>
+                        <select name="证件类型">
+                        <option value="one" >身份证</option>
+                        <option value="two"> 军人证</option>
+                        <option value="three">残疾证</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>证件号：</th>
+                <td>
+                	<input type="text" name="证件号" value="">
+                </td>
+            </tr>
+        	<tr>
+            	<th>爱好</th>
+                <td>
+                    <form>
+                        <input type="checkbox" name="hobby" value="音乐"/>音乐
+                        <input type="checkbox" name="hobby" value="读书"/>读书
+                        <input type="checkbox" name="hobby" value="跳舞"/>跳舞
+                        <input type="checkbox" name="hobby" value="下棋"/>下棋
+                        <input type="checkbox" name="hobby" value="其他"/>其他
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>说明</th>
+                <td>
+                	<form>
+                        <textarea name="说明" rows="5" cols= " 30">
+                        </textarea>
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+            	<th>上传头像</th>
+                <td>
+                	<form>
+                        <input type="file" name="files"/>
+                    </form>
+                </td>
+            </tr>
+        	<tr>
+                <td colspan="2" align="center">
+                	<form>
+                        <input type="submit" value= "提交" name= "sub" />
+                        <input type = "reset" value= "重置" name= "res" />
+                        <input type="button" value= " 按钮 " name= "but" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
