@@ -1,0 +1,14 @@
+body{font-size: 12px;
+	font-family: 'Arial';
+	 color: gray}
+p{line-height: 2em;}
+a:link{text-decoration: none;
+		color: #727272;}
+a:hover{text-decoration: underline;}
+.shou{font-size: 14px;
+		color: #b9f605;
+		font-weight: bolder;}
+.cai{color: white;}
+a.cai:hover{color: #b9f605;
+			text-decoration: none;}
+#last{color: #fdb306}
