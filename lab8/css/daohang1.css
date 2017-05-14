@@ -1,0 +1,33 @@
+ul{list-style-image: url( image/left_cur.gif);
+	background-image: url(image/left_nav_txt.gif);
+	margin: 0px;
+  }
+.menu{
+		width: 183px;
+		background-repeat:repeat-x;
+		padding: 0px;
+	}
+#titlediv{background-image:url(image/left_nav_title.gif);
+			color: white;
+			background-repeat: no-repeat;
+			text-align: center;
+			width: 183px;
+			height: 35px;
+			padding-top: 12px;
+		}
+.checked{
+		padding: 5px;
+		background-position: -3em 100%;
+		background-image: url(image/left_nav_item.gif);
+		background-repeat: no-repeat;
+		}
+.dibu{
+		background-image: url(image/left_nav_bottom.gif);
+		width: 183px;
+		height: 35px;
+		background-repeat: no-repeat;
+	}
+a:link{text-decoration: none;
+		color: black;
+		font-family: '微软雅黑'}
+a:hover{color: red;}

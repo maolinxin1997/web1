@@ -1,0 +1,26 @@
+body{font-size: 14px;}
+.bj{background-image: url(image/bj.png);
+	background-repeat: no-repeat;
+	height:381px;
+	 }
+.tou{background-image: url(image/header.png);
+	background-repeat: no-repeat;
+	width: 175px;
+	height: 65px;
+	}
+.zheng{
+	padding-top: 20px;
+}
+.bai{
+	background-image: url(image/baibiaoti.png);
+	background-repeat: no-repeat;
+	height: 36px;
+	padding-top: 10px;
+	padding-left: 50px;
+	margin-left: 20px;
+
+}
+div.bai:hover{background-image: url(image/lvbiaoti.png);}
+a:link{text-decoration: none;
+		color:gray; }
+a:hover{color: white;}
